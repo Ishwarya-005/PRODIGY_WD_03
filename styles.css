@@ -2,6 +2,11 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 50px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
 }
 
 #game-board {
@@ -16,11 +21,26 @@ body {
 .cell {
   width: 100px;
   height: 100px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: #fff;
+  border: 2px solid #333;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+.cell.x {
+  color: #ff4d4d;
+}
+
+.cell.o {
+  color: #4da6ff;
 }
