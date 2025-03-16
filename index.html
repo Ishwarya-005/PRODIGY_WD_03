@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic-Tac-Toe</title>
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Tic-Tac-Toe</h1>
+  <p id="status">Player X's turn</p>
   <div id="game-board">
     <div class="cell" data-index="0"></div>
     <div class="cell" data-index="1"></div>
@@ -19,6 +18,10 @@
     <div class="cell" data-index="7"></div>
     <div class="cell" data-index="8"></div>
   </div>
+  <p>Wins: <span id="x-wins">0</span> (X) | <span id="o-wins">0</span> (O)</p>
+  <p id="winner-message"></p> 
+  <p id="winner-message"></p>
+<button id="restart-button">Restart Game</button> 
   <script src="script.js"></script>
 </body>
 </html>

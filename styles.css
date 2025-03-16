@@ -9,6 +9,12 @@ h1 {
   color: #333;
 }
 
+#status {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
 #game-board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
@@ -43,4 +49,55 @@ h1 {
 
 .cell.o {
   color: #4da6ff;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#winner-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+#restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart-button:hover {
+  background-color: #555;
+}
+
+#winner-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+#restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart-button:hover {
+  background-color: #555;
 }
